@@ -1,0 +1,178 @@
+Ranking,Country,Value,Percent
+1,China,1648.0,26
+2,United States,724.0,12
+3,Brazil,463.0,7
+4,Canada,428.0,7
+5,India,248.0,4
+6,Germany,223.0,4
+7,Japan,208.0,3
+8,Russia,187.0,3
+9,Norway,144.0,2
+10,Italy,106.0,2
+11,United Kingdom,103.0,2
+12,Sweden,96.0,2
+13,France,95.0,2
+14,Spain,87.0,1
+15,Turkey,86.0,1
+16,Vietnam,71.0,1
+17,Venezuela,64.0,1
+18,Paraguay,59.0,1
+19,Colombia,58.0,1
+20,Mexico,51.0,1
+21,Austria,49.0,1
+22,Argentina,42.0,1
+23,Australia,40.0,1
+24,Switzerland,39.0,1
+25,New Zealand,35.0,1
+26,Chile,34.0,1
+27,Pakistan,34.0,1
+28,Indonesia,32.0,1
+29,Finland,32.0,1
+30,Peru,31.0,0
+31,Thailand,31.0,0
+32,Malaysia,27.0,0
+33,Romania,24.0,0
+34,Poland,24.0,0
+35,Philippines,23.0,0
+36,Denmark,23.0,0
+37,Portugal,23.0,0
+38,South Korea,21.0,0
+39,Ecuador,20.0,0
+40,Netherlands,19.0,0
+41,Iceland,19.0,0
+42,Laos,18.0,0
+43,Belgium,17.0,0
+44,Tajikistan,17.0,0
+45,Egypt,16.0,0
+46,Iran,15.0,0
+47,Kyrgyzstan,14.0,0
+48,Mozambique,14.0,0
+49,Greece,14.0,0
+50,Ethiopia,14.0,0
+51,Uruguay,13.0,0
+52,Myanmar,13.0,0
+53,Taiwan,12.0,0
+54,Zambia,12.0,0
+55,North Korea,12.0,0
+56,Kazakhstan,12.0,0
+57,Costa Rica,11.0,0
+58,Ukraine,11.0,0
+59,Czech Republic,9.7,0
+60,South Africa,9.6,0
+61,Congo-Kinshasa,9.4,0
+62,Sudan,9.4,0
+63,Georgia,9.2,0
+64,Serbia,9.2,0
+65,Ireland,9.0,0
+66,Guatemala,8.9,0
+67,Uzbekistan,8.3,0
+68,Kenya,8.1,0
+69,Panama,7.9,0
+70,Angola,7.8,0
+71,Bhutan,7.7,0
+72,Croatia,7.1,0
+73,Slovakia,6.7,0
+74,Bulgaria,6.1,0
+75,Ghana,5.6,0
+76,Nigeria,5.5,0
+77,Latvia,5.4,0
+78,Honduras,5.3,0
+79,Nepal,4.7,0
+80,Morocco,4.6,0
+81,Cameroon,4.6,0
+82,Sri Lanka,4.6,0
+83,Albania,4.5,0
+84,Slovenia,4.4,0
+85,Zimbabwe,4.1,0
+86,Bosnia and Herzegovina,4.0,0
+87,El Salvador,4.0,0
+88,Hungary,3.7,0
+89,Uganda,3.7,0
+90,Dominican Republic,2.9,0
+91,Cambodia,2.8,0
+92,Lithuania,2.6,0
+93,Nicaragua,2.6,0
+94,Bolivia,2.6,0
+95,Tanzania,2.4,0
+96,Armenia,2.3,0
+97,Azerbaijan,2.0,0
+98,Estonia,1.9,0
+99,Malawi,1.9,0
+100,Cote dIvoire,1.7,0
+101,Israel,1.7,0
+102,Singapore,1.6,0
+103,Namibia,1.6,0
+104,Iraq,1.5,0
+105,Jordan,1.4,0
+106,Macedonia,1.3,0
+107,Bangladesh,1.2,0
+108,Congo-Brazzaville,1.2,0
+109,Mali,1.2,0
+110,Guinea,1.1,0
+111,Montenegro,1.1,0
+112,Afghanistan,1.1,0
+113,Suriname,1.1,0
+114,Reunion,1.0,0
+115,Gabon,0.9,0
+116,Madagascar,0.9,0
+117,Papua New Guinea,0.8,0
+118,United Arab Emirates,0.8,0
+119,Cuba,0.8,0
+120,Belarus,0.8,0
+121,Syria,0.8,0
+122,Jamaica,0.7,0
+123,Luxembourg,0.7,0
+124,Mauritius,0.7,0
+125,Algeria,0.6,0
+126,French Guiana,0.6,0
+127,Tunisia,0.6,0
+128,Equatorial Guinea,0.6,0
+129,Fiji,0.6,0
+130,Senegal,0.5,0
+131,Lesotho,0.5,0
+132,Mauritania,0.5,0
+133,Cyprus,0.4,0
+134,New Caledonia,0.4,0
+135,Mongolia,0.4,0
+136,Belize,0.4,0
+137,Greenland,0.4,0
+138,Puerto Rico,0.4,0
+139,Lebanon,0.4,0
+140,Rwanda,0.3,0
+141,Swaziland,0.3,0
+142,Moldova,0.3,0
+143,Netherlands Antilles,0.3,0
+144,Togo,0.2,0
+145,French Polynesia,0.2,0
+146,Guadeloupe,0.2,0
+147,Burundi,0.2,0
+148,Yemen,0.2,0
+149,Kosovo,0.2,0
+150,Faroe Islands,0.2,0
+151,Malta,0.2,0
+152,Saudi Arabia,0.2,0
+153,Burkina Faso,0.2,0
+154,Central African Republic,0.2,0
+155,Aruba,0.1,0
+156,Sierra Leone,0.1,0
+157,Qatar,0.1,0
+158,Hong Kong,0.1,0
+--,American Samoa,0.0,0
+--,Antarctica,0.0,0
+--,Bermuda,0.0,0
+--,Gibraltar,0.0,0
+--,Liberia,0.0,0
+--,Macau,0.0,0
+--,Montserrat,0.0,0
+--,Nauru,0.0,0
+--,Niue,0.0,0
+--,Oman,0.0,0
+--,Saint Helena,0.0,0
+--,Saint Pierre and Miquelon,0.0,0
+--,Seychelles,0.0,0
+--,Timor-Leste,0.0,0
+--,Tonga,0.0,0
+--,Turks and Caicos Islands,0.0,0
+--,U.S. Pacific Islands,0.0,0
+--,Wake Island,0.0,0
+--,Western Sahara,0.0,0

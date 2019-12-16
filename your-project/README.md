@@ -74,15 +74,18 @@ Analogue situation than in generation dataset. This dataset (so-called 'superdat
 * Exports: in b. Kwh
 * C02 emissions: emissions measured in million metric tons carbon dioxide 
 
-Also, from the same website, we use different countries ranking measures (same as above) to make a quick description in the current energetic situation (2017).
+Also, from the same website, we use different countries ranking measures to make a quick description in the current energetic situation (2017):
+* Ranking of electri
 
 From these datasets, we make a data cleaning and data exploring to prepare ready for the last step: Time Series -Machine Learning-
 
 ## Cleaning
-Data Cleaning is named the Jupyter notebook file: **1.data_cleaning.ipnyb** is splitted in two different steps:
-* 1st step **SLICING SUPERDATASET**: For Generation and Capacity superdatasets we define a function we slice these superdatasets in five small ones.
+Data Cleaning information you may find in the Jupyter notebook file: **1.data_cleaning.ipnyb**. It is splitted in two different steps:
+### 1st step **SLICING SUPERDATASET**
+For Generation and Capacity superdatasets we define a function we slice these superdatasets in five small ones.
 
-* 2nd step **CLEANING DATASET**: Define two functions (*clean1*, *clean2*) to automatize the cleaning for all dataset we have. I checked previously that all of them share the same 'deffects', which are the following ones:
+### 2nd step **CLEANING DATASET**
+ Define two functions (*clean1*, *clean2*) to automatize the cleaning for all dataset we have. I checked previously that all of them share the same 'deffects', which are the following ones:
 
 * 1 dropping the empty  and the units columns. 
 
@@ -102,13 +105,30 @@ Data Cleaning is named the Jupyter notebook file: **1.data_cleaning.ipnyb** is s
 
 * 8  Transpose the matrix to have the country as index and year as columns.
 
-* 3rd step **SAVING DATA**: We save all datasets in different  .csv files in the folder **CLEANED_DATA**
+### 3rd step **Read and clean the ranking datasets**
+I clean (I found these data pretty cleaned) a bit transforming some columns such as 'Value' in float64 and dropping a empty columnn.
+
+### 4th step **SAVING DATA**
+I save all datasets in different .csv files in the folder **CLEANED_DATA** to read in the Analysis part.
 
 ## Analysis
-* Overview the general steps you went through to analyze your data in order to test your hypothesis.
-* Document each step of your data exploration and analysis.
-* Include charts to demonstrate the effect of your work.
-* If you used Machine Learning in your final project, describe your feature selection process.
+Data Analysis information you may find in the Jupyter notebook file: **1.data_analysis.ipnyb**. 
+The description of the current energetic situation thourgh plots and descriptive analysis. 
+The data analysis in 3 steps:
+
+ ### 1.Evolution of  countries in renewable energy consumption.
+
+Plots of some countries showing the eletricity net consumption, the renewable and fossilie (no renewable) generation and installatins. 
+
+From these plots, we can extract an additional feature in the Machine Learning model: Check if the renewable energy absolute variation is higher than non-renewable absolute variation. If it is so, we can proceed to apply the Machine Learning algorithm, if it is not, renewable energy can converge with the electricity net demand of society.
+
+ ### 2.Analysis for the *Generation renowable ratio* for all countries: 
+We want to show through different kind of plots the current renewable electricity situation is in the world.
+For this porpusse, we use Tablelau as visualization tool [Tableau]as visualiztion support to map different metrics such as, how is the balance of trade (exports-imports), how are the Ranking of the renewable, no-renewable or net electricity consumption countries. 
+
+### 3.Preparation of information to apply Time Series in Machine Learning:
+We prepare two different datasets to calculate how is the annual variation of energy consumption along the years for all countries: the *relative* variation, which offer more detail and is more useless and the *absolute* variation (from 1980).
+
 
 ## Model Training and Evaluation
 *Include this section only if you chose to include ML in your project.*
@@ -127,13 +147,25 @@ Outline the workflow you used in your project. What were the steps?
 How did you test the accuracy of your analysis and/or machine learning algorithm?
 
 ## Organization
-The organization of the project for different kind of task: from technical ones (data cleaning, data exploring, etc.) to more organizational tasks.
-You can find a more detailed information in Trello (see [Trello](https://trello.com/en)).
 
-The *GitHub* repository is organized with the following struture:
+The project folder in Github [Repository] is organized in the following mode:
+
+* jupyter_notebook_files
+    - 1.data_cleaning.ipynb
+    - 2.data_analyzing.ipynb
+
+* cleaned_data
+    * ranking
+
+* analyzed_data
+    * plot_countries
+    * tableau
+        * rankings
+
+* raw_data
 
 ## Links
-Include links to your repository, slides and trello/kanban board. Feel free to include any other links associated with your project.
+Here are the links related to the project, where you may find all files need to understand the project.
 
 
 [Repository](https://github.com/)  
@@ -142,4 +174,4 @@ Include links to your repository, slides and trello/kanban board. Feel free to i
 
 [Trello](https://trello.com/en)
 
-[COP25](https://unclimatesummit.org/)
+[Tableau](https://public.tableau.com/profile/rub.n5876#!/vizhome/Project5_15761776874140/ratio_consumptionbypopulation)
