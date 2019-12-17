@@ -1,6 +1,6 @@
 <img src="https://bit.ly/2VnXWr2" alt="Ironhack Logo" width="100"/>
 
-# RENEWABLE & NO-RENEWABLE ENERGIES: Are we ready?
+# RENEWABLE ENERGY: World are ready?
 **Rubén Martínez Lorente**
 
 *[Data Analytics, Ironhack bootcamp Barcelona & 20/12/2019]*
