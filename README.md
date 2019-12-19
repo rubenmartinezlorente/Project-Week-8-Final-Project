@@ -11,7 +11,7 @@
 - [Dataset](#dataset)
 - [Cleaning](#cleaning)
 - [Analysis](#analysis)
-- [Statistics] (#Statistics)
+- [Statistics] (#statistics)
 - [Machine Learning](#machine-learning)
 - [Conclusion](#conclusion)
 - [Future Work](#future-work)
@@ -136,8 +136,11 @@ Notation:
  NET: Net electricity consumption
 
 **GREEN LIGHT COUNTRIES**: RE > 0.7NET & NRE < 0.3NET
+
 **WARNING COUNTRIES** :  RE > 0.7NET & NRE > 0.3NET
+
 **DANGEROUS COUNTRIES**:  RE < 0.7NET & NRE < 0.3NET
+
 **TOXIC COUNTRIES**  RE < 0.7NET & NRE > 0.3NET
 
 The information of labeled countries you can find in the folder **statistics_linear_regression** as *label_countries.csv*
@@ -147,16 +150,17 @@ The information of labeled countries you can find in the folder **statistics_lin
 * Describe how you trained your model, the results you obtained, and how you evaluated those results.
 
 ## Conclusion
-* Summarize your results. What do they mean?
-* What can you say about your hypotheses?
-* Interpret your findings in terms of the questions you try to answer.
+The conclusions of this project are the following:
+
+- 1. I answered to the main goal about if countries will be able to be ecologically sustainable in the coming future. The estimation computed says a clear NO.
+
+- 2. I applied different data tools and methodologies to get a concise answer (Statistics, unsupervised machine learning, etc.)
+
 
 ## Future Work
-Address any questions you were unable to answer, or any next steps or future extensions to your project.
-
-## Workflow
-Outline the workflow you used in your project. What were the steps?
-How did you test the accuracy of your analysis and/or machine learning algorithm?
+Using the current data apply time-series.
+Issue: We just have annual variation (38 points) to train the data. We can compare if the prediction is more accurate than the estimation done by Statistics (just for lustrum/decade)
+Deeper analysis using different renewables and non renewable energy sources (wind, solar, nuclear, petroleum, etc.)
 
 ## Organization
 
@@ -165,15 +169,23 @@ The project folder in Github [Repository] is organized in the following mode:
 * jupyter_notebook_files
     - 1.data_cleaning.ipynb
     - 2.data_analyzing.ipynb
+    - 3.statistics_linear_regression.ipynb
+    - 4.machine_learning_clustering.ipynb
 
 * cleaned_data
     * ranking
 
-* analyzed_data
+* explored_data
     * plot_countries
     * tableau
         * rankings
+* statistics_data
+    * plot_countries
 
+* machine_learning_data
+    * plot_countries
+    * tableau
+        * rankings
 * raw_data
 
 ## Links
