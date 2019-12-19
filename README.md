@@ -11,7 +11,7 @@
 - [Dataset](#dataset)
 - [Cleaning](#cleaning)
 - [Analysis](#analysis)
-- [Statistics] (#statistics)
+- [Statistics](#statistics)
 - [Machine Learning](#machine-learning)
 - [Conclusion](#conclusion)
 - [Future Work](#future-work)
