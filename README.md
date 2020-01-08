@@ -125,7 +125,7 @@ For this porpusse, we use Tablelau as visualization tool [Tableau]as visualizati
 The dataframe (.csv) I use to make these plots you can find in the folder **explored_data** as *datamaster.csv*
 
 ## Statistics
-This third module you can find also in the folder **jupyter_notebooks** as **3.statistics_linear_regression**. In this module I stimate the net electricity consumption, the generation of renewable and fossile (no renewable) energy for the next 80 years (from 2020 to 2100).
+This third module you can find also in the folder **jupyter_notebooks** as **3.statistics_data**. In this module I stimate the net electricity consumption, the generation of renewable and fossile (no renewable) energy for the next 80 years (from 2020 to 2100).
 
 Once I know this stimation, we create three dataframes (consum_future,renewable_future and norenewable_future) and applying a critero, we catalogue all countries in four different kinds. 
 The criterio is based in the assumption of which is the ratio of renewable generation and no renewable generation over the net electricity consumption. As the linear regression just provide a trend, we just choose the last year stimated (2100). You can find the plots generated for some countries in the folder  **plot_countries** inside of the folder **statistics_linear_regression** as *label_countries.csv*.
@@ -143,11 +143,18 @@ Notation:
 
 **TOXIC COUNTRIES**  RE < 0.7NET & NRE > 0.3NET
 
-The information of labeled countries you can find in the folder **statistics_linear_regression** as *label_countries.csv*
+The information of labeled countries you can find in the folder **statistics_data** as *label_countries.csv*
 
 ## Machine Learning
-*Include this section only if you chose to include ML in your project.*
-* Describe how you trained your model, the results you obtained, and how you evaluated those results.
+The fourth and last module you can find the machine learning. You can find all information in in the folder **jupyter_notebooks** as **4.machine_learning_clustering**. Although the first idea was use time series, the data we have is scheduled annualy (38 year/points), so it is not useful the time-series machine learning. 
+
+But, we can check with **Unsupervised Machine Learning** if there is a similar kind of countries clustering with energetic features with low or null correlation energetic features (GPD, population, etc.)
+
+As features we use the following ones: Population, GDP, C02 emssions (low/medium correlation), imports and exports of net energy (medium correlation).
+
+I use the K-nearest neighbour to simplify the operation because I do not know what relationship have the features with the energetic features. Inside the model, an interesting point to call is the number of clusters we fix at 4, to obbey the system to cluster as in the statistics module I performanced.
+
+I find that effectively, there is a similar classification (checking the percentages) using as data  no energetic features (or with low correlation).
 
 ## Conclusion
 The conclusions of this project are the following:
